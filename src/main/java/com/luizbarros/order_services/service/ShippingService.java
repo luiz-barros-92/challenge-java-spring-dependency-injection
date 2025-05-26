@@ -8,6 +8,17 @@ import com.luizbarros.order_services.entities.Order;
 public class ShippingService {
 	
 	public double shipment(Order  order) {
-		return 0; //TODO		
+		
+		Double fee;
+		
+		if (order.getBasic() < 100.0) {
+			fee = 20.0;
+		}else if (order.getBasic() < 200.0) {
+			fee = 12.0;
+		}else {
+			fee = 0.0;
+		}
+		
+		return fee;
 	}
 }
