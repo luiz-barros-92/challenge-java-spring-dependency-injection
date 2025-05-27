@@ -39,6 +39,7 @@ public class OrderServicesApplication implements CommandLineRunner{
 		System.out.print("Discount(%): ");
 		Double discount = sc.nextDouble();
 		
+		sc.close();
 		
 		Order order = new Order(code, basic, discount);
 		
