@@ -14,4 +14,4 @@ The logic for calculating the total order value must be implemented by component
 ### Services
 ![img3](https://github.com/luiz-barros-92/assets/blob/main/challenges/c1/c1-3.png)
 <br>
-Your solution must be implemented in Java with Spring Boot. The output must be shown in the application's terminal log. Each service must be implemented as a component registered with @Service.
+Your solution must be implemented in **Java** with **Spring Boot**. The output must be shown in the application's terminal log. Each service must be implemented as a component registered with @Service.
